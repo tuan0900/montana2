@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/style.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+     <div class="header-area">
+       <div class="container-fluid p-0"> <!--header -->
+        <div class="row align-items-center g-0">
+            <div class=" d-none d-lg-block col-xl-5 col-lg-6">
+                  <ul class="nav nav_header_area justify-content-center">
+                    <li class="nav-item">
+                      <a class=" "  href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="" href="#"> Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="" href="#"> About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" d-flex align-items-center" href="#">
+                        Blog
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </a>
+                      <div class="position-absolute Left-0 bg-white text-start px-3 invisible submenu" style="width: 200px">
+                        <div class="py-2">Block</div>
+                        <div class="py-2">Single-Blog</div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" d-flex align-items-center" href="#">
+                        Pages
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </a>
+                      <div class="position-absolute Left-0 bg-white text-start px-3 invisible submenu" style="width: 200px">
+                        <div class="py-2">Elements</div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xl-2 col-lg-2">
+                <div class="d-flex position-relative align-items-center justify-content-between justify-content-xl-center ">
+                  <a class="logo-img" href="./index.html">
+                    <img class="mx-auto d-block" style="width: 70px;" src="./image/logo.png" alt="">
+                  </a>
+                  <button type="button" class="d-lg-none logo-bars" data-bs-toggle="collapse" data-bs-target="#demo1" >
+                        <i class="fa-solid fa-bars bg-white"></i>
+                  </button> 
+                  <div id="demo1" class="collapse menu-box position-absolute bg-white">
+                    <ul class="d-lg-none">
+                      <li class="">
+                        <a href="">Home</a>
+                      </li>
+                      <li>
+                        <a href="">Rooms</a>
+                      </li>
+                      <li>
+                        <a href="">About</a>
+                      </li>
+                      <li class="d-flex justify-content-between align-items-center">
+                        <a href="">Blog</a>
+                        <i class="fa-sharp fa-solid fa-plus"></i>
+                      </li>
+                      <li class="d-flex justify-content-between align-items-center">
+                        <a href="">Pages</a>
+                        <i class="fa-sharp fa-solid fa-plus"></i>
+                      </li>
+                      <li>
+                        <a href="">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="d-none d-lg-block col-xl-5 col-lg-4">
+                <ul class="nav justify-content-end align-items-center">
+                    <li class="nav-item">
+                      <a class=" nav_icon active" aria-current="page" href="https://themewagon.github.io/montana/#">
+                        <i class="fa-brands fa-square-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class=" nav_icon" href="https://themewagon.github.io/montana/rooms.html#"> 
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item me-5">
+                      <a class=" nav_icon" href="https://themewagon.github.io/montana/rooms.html#">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item bg-primary book_room_area">
+                      <a class="nav-link text-white" href="#">
+                        Book A Room
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       </div>
+     </div>
+    <div class="slider-area"> <!--slider -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" >
+            <div class="slider-text ">
+              <h3>Life Is Beautiful</h3>
+              <p>Unlock to enjoy the view of Martine</p>
+            </div>
+            <img src="./image/banner.png" alt="Los Angeles" class="d-block w-100" style="height: 100vh;">
+          </div>
+          <div class="carousel-item">
+            <div class="slider-text ">
+              <h3>Montana Resort</h3>
+              <p>Unlock to enjoy the view of Martine</p>
+            </div>
+            <img src="./image/banner2.png" alt="Chicago" class="d-block w-100" style="height: 100vh;">
+          </div>
+        </div>
+      
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class=""style="height: 1000px;"></div><!--contain -->
+    <div class=""></div><!--footer -->
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

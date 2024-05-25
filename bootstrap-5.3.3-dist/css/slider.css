@@ -1,0 +1,41 @@
+.slider-area{
+    height:644px;
+}
+/* .slider-area > div{
+    height:100%;
+} */
+.slider-area div button{
+    width:54px ;
+    height:54px;
+    border-radius:50%;
+    top:50%;
+    margin:0 50px;
+    transform:translateY(-50%);
+    background-color:#47413e;
+}
+.slider-area div button:hover{
+    background-color:#009dff;
+}
+.slider-text{
+    position: absolute;
+    width:100%;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 41px;
+    text-align:center;
+}
+.slider-text h3{
+    font-size: 100px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+.slider-text p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 0;
+}
